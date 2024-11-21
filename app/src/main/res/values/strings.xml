@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AZ dashboard</string>
+
+    <string name="no_connection_message">No Internet Connection</string>
+    <string name="retry">Retry</string>
+    <string name="no_connection_image">No connection icon</string>
+</resources>

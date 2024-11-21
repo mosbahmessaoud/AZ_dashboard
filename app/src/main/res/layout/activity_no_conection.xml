@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center">
+
+    <!-- Icon or Image -->
+    <ImageView
+        android:id="@+id/no_connection_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wifi_off"
+        android:contentDescription="@string/no_connection_image" />
+
+    <!-- Message -->
+    <TextView
+        android:id="@+id/no_connection_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_connection_icon"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/no_connection_message"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:gravity="center" />
+
+    <!-- Retry Button -->
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_connection_message"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/retry"
+        android:backgroundTint="@color/material_dynamic_primary10"
+        android:textColor="#ffffff" />
+</RelativeLayout>
